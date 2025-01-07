@@ -96,7 +96,7 @@ export default function Signin() {
             className='w-100 mb-4 btn btn btnForm'
             type="submit"
           >
-            {Loading?"Sign Up" : <i className="fa fa-spinner fa-spin"></i>}
+            {Loading?"Login" : <i className="fa fa-spinner fa-spin"></i>}
           </button>
         </form>
         {ErrMsg? <div className="alert alert-dark" role="alert">
